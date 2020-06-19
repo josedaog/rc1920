@@ -17,7 +17,13 @@ Realmente se puede intuir que la lógica es la base de cualquier lenguaje de pro
 <p align="center">
   <img width="640" height="360/2" src="../Imagenes/Ejemplo lógica 2.png">
 </p>
-En el ejemplo 1 es lícito concluir que Sócrates es mortal **a partir** de las dos primeras **premisas**. En el ejemplo 2, por el contrario, **no es lícito** llegar a esta conclusión. ¿Por qué? Porque, si bien todos los hombres son mortales y Sócrates es mortal, esto no excluye necesariamente la posibilidad de que Sócrates no sea un hombre.[3]
+
+En el ejemplo 1 es lícito concluir que Sócrates es mortal **a partir** de las dos primeras **premisas**. En el ejemplo 2, por el contrario, **no es lícito** llegar a esta conclusión. ¿Por qué? Porque, si bien todos los hombres son mortales y Sócrates es mortal, esto no excluye necesariamente la posibilidad de que Sócrates no sea un hombre. [3]
+
+La lógica aunque es muy potetente, tiende a ser difícil de trabajar debido a sus restricciones.
+
+## Representación mediante Redes Semánticas
+
 
 
 ## Bibliografía
