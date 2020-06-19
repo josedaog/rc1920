@@ -15,7 +15,7 @@ Realmente se puede intuir que la lógica es la base de cualquier lenguaje de pro
 
 
 <p align="center">
-  <img width="640" height="360/2" src="../Imagenes/Ejemplo lógica 2.png">
+  <img width="640" height="360" src="../Imagenes/Ejemplo lógica 2.png">
 </p>
 
 En el ejemplo 1 es lícito concluir que Sócrates es mortal **a partir** de las dos primeras **premisas**. En el ejemplo 2, por el contrario, **no es lícito** llegar a esta conclusión. ¿Por qué? Porque, si bien todos los hombres son mortales y Sócrates es mortal, esto no excluye necesariamente la posibilidad de que Sócrates no sea un hombre. [3]
@@ -23,7 +23,14 @@ En el ejemplo 1 es lícito concluir que Sócrates es mortal **a partir** de las 
 La lógica aunque es muy potetente, tiende a ser difícil de trabajar debido a sus restricciones.
 
 ## Representación mediante Redes Semánticas
+Una red semántica es una forma de representación del conocimiento en la que los conceptos y sus interrelaciones se representan mediante un grafo. En caso de que no existan ciclos, estas redes pueden ser visualizadas como árboles.
 
+Los elementos semánticos se representan mediante nodos, mientras que una relación entre dos elementos semánticos se representa mediante una arista. Así, se obtiene finalmente un grafo conectado en el que se pueden observar diversas relaciones.
+
+Ejemplo [4]:
+<p align="center">
+  <img width="571" height="342" src="../Imagenes/Ejemplo redes semánticas.png">
+</p>
 
 
 ## Bibliografía
@@ -35,3 +42,7 @@ https://www.edureka.co/blog/knowledge-representation-in-ai/
 
 [3].- 
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.enterarse.com%2F20191216_0001-que-son-las-falacias-y-como-saber-si-tu-argumento-es-un-buen-argumento&psig=AOvVaw2FuYAlU_5shDIfbDpFvlwf&ust=1592680241975000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKD79bPKjuoCFQAAAAAdAAAAABAl
+
+[4].- http://informatedeiae.blogspot.com/2013/11/ejemplos-de-redes-semanticas.html
+
+[4].-https://es.wikipedia.org/wiki/Red_semántica#
