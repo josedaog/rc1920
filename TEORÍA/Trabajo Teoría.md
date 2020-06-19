@@ -13,7 +13,6 @@ Es como decir que, "Dos más dos son cuatro":  "Dos más dos" sería una premisa
 
 Realmente se puede intuir que la lógica es la base de cualquier lenguaje de programación. Formalmente, la lógica utiliza símbolos especiales para escribir las premisas.
 
-
 <p align="center">
   <img width="640" height="360" src="../Imagenes/Ejemplo lógica 2.png">
 </p>
@@ -62,6 +61,12 @@ Ejemplo [7]:
 <p align="center">
   <img width="571" height="342" src="../Imagenes/Ejemplo regla producción.png">
 </p>
+
+
+**Conclusiones**
+Las reglas de producción posiblemente constituyen la técnica más utilizada para la representación del conocimiento. Es modular, uniforma y su forma de expresar el conocimiento es bastante natural.
+
+Se pueden dar algunos problemas sin embargo, como es la modificación de reglas existentes, que puede ser complicado. Además, no es difícil incorporar conocimiento contradictorio en un sistema medianamente grande. También puede ser dificil establecer relaciones entre entidades.
 
 ## Bibliografía
 [1].- REPRESENTACIÓN DEL CONOCIMIENTO
