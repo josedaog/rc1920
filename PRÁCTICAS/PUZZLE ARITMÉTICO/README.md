@@ -168,5 +168,7 @@ do(_).
 
 ## Referencias
 P-99: Ninety-Nine Prolog Problems[1]: https://www.ic.unicamp.br/~meidanis/courses/mc336/2009s2/prolog/problemas/
+
 Vídeos sobre el funcionamiento de Prolog: https://www.youtube.com/channel/UCdPmeK-zVtvYS4qX_Wa87Wg
+
 Repositorio con varios ejemplos y ejercicios con Prolog: https://github.com/jcarpio/rc1920
