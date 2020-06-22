@@ -72,3 +72,4 @@ Cryptography with Prolog[1]: https://www.metalevel.at/prolog/cryptography
 
 Block chain/distributed ledger library? (Foro en el que se habla de un proyecto parecido a este): https://swi-prolog.discourse.group/t/block-chain-distributed-ledger-library/481
 
+Libreria de criptografía Prolog: https://github.com/mthom/scryer-prolog/blob/master/src/lib/crypto.pl
