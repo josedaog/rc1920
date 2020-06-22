@@ -30,9 +30,10 @@ A continuación se describirá el código desde la llamada inicial, pasando por 
 ### do(+L)
 *Es cierto cuando por pantalla se imprimen todas las posibles soluciones al problema planteado, dada una lista L de números.*
 
-```do(L) :- 
+```
+do(L) :- 
   equation(L,LT,RT),
      writef('%w = %w\n',[LT,RT]),
   fail.
->do(_).
+do(_).
 ```
