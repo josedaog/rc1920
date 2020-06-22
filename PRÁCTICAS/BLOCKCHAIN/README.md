@@ -31,9 +31,12 @@ Para empezar, debemos que definir una **estructura** para los bloques de informa
 
 
 <p align="center">
-  <img width="900" height="160" src="../Imagenes/Estructura de los bloques.png">
+  <img width="900" height="160" src="../../Imagenes/Estructura de los bloques.png">
 </p>
 
+El primer paso que habría que dar sería preparar la información de los datos para incluir todos los campos antes mencionados, exceptuando los códigos hash que son propios de los bloques.
 
+## Generando un bloque
+Para la generación de un bloque a partir de los datos, 
 ## Como comprobar la integridad de los datos
 Si los hash coinciden...
