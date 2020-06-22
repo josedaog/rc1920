@@ -29,9 +29,11 @@ Para empezar, debemos que definir una **estructura** para los bloques de informa
 * **Hash:** Código hash del bloque en cuestión.
 * **Hash del bloque anterior:** Con esto se garantiza que la cadena de bloques tiene consistencia y es segura. 
 
+
 <p align="center">
-  <img width="817" height="194" src="../Imagenes/Estructura de los bloques.png">
+  <img width="900" height="160" src="../Imagenes/Estructura de los bloques.png">
 </p>
+
 
 ## Como comprobar la integridad de los datos
 Si los hash coinciden...
