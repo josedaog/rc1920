@@ -72,6 +72,17 @@ Las reglas de producción posiblemente constituyen la técnica más utilizada pa
 
 Se pueden dar algunos problemas sin embargo, como es la modificación de reglas existentes, que puede ser complicado. Además, no es difícil incorporar conocimiento contradictorio en un sistema medianamente grande. También puede ser dificil establecer relaciones entre entidades.
 
+## Redes bayesianas
+Una red bayesiana es un modelo grafo probabilístico que representa un conjunto de variables aleatorias y sus dependencias condicionales a través de un grafo acíclico dirigido. Por ejemplo, una red bayesiana puede representar las relaciones probabilísticas entre enfermedades y síntomas.
+
+El grafo describe la distribución de probabilidad conjunta que gobierna un conjunto de variables aleatorias. Los nodos pueden representar cualquier tipo de variable, ya sea un parámetro medible (o medido), una variable latente o una hipótesis. Existen algoritmos que realizan inferencias y aprendizaje basados en redes bayesianas.
+
+<p align="center">
+  <img width="571" height="342" src="../Imagenes/Red bayesiana.png">
+</p>
+
+**Conclusiones**
+Las redes bayesianas son potentes ya que pueden modelar sistemas complejos probabilísticos. El problema muchas veces es que hay que conocer *a priori* las probabilidades de los sucesos para generar un sistema fiable y funcional. Las redes bayesianas nos ayudan a *predecir* acontecimientos futuros a partir de los datos estadísticos de los que se forma.
 ## Bibliografía
 [1].- REPRESENTACIÓN DEL CONOCIMIENTO
 https://sitiointeligenciaa.wordpress.com/representacion-del-conocimiento/#:~:text=Representar
@@ -89,3 +100,5 @@ https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.enterarse.com%2F20191216_0
 [6].- https://es.slideshare.net/leonardobernalzamora/frames-5316032
 
 [7].- https://prezi.com/iqft5vv71w45/reglas-de-produccion/
+
+Redes bayesianas: https://www.ecured.cu/Red_Bayesiana
