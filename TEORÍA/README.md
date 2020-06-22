@@ -1,4 +1,8 @@
 # Técnicas de Representación del Conocimiento en Inteligencia Artificial
+:office: Universidad de Huelva (UHU)  
+:calendar: Curso 2019-2020  
+:mortar_board: Representación del conocimiento  
+:octocat: José David Ortiz Gómez 
 ## Introducción
 Los humanos tenemos la capacidad de **organizar ideas** y relacionarlas con otras, para así sacar conclusiones y tomar decisiones. Las máquinas sin embargo, lo tienen más complicado. La representación del conocimiento es el ámbito de la informática encargado de solucionar este problema en los ordenadores, de modo que sean capaces de **tratar** la información de forma adecuada.
 
