@@ -1,4 +1,8 @@
 # Creación de una BlockChain con Prolog
+:office: Universidad de Huelva (UHU)  
+:calendar: Curso 2019-2020  
+:mortar_board: Representación del conocimiento  
+:octocat: José David Ortiz Gómez 
 ## Introducción
 En el presente documento se describen los pasos que habría que seguir para la implementación de una red **BlockChain** local de manera sencilla. Además, se aportarán referencias de utilidad para que el trabajo se pueda llevar a cabo. Este es un proyecto que solo está pensado pero **no realizado**.
 
@@ -25,7 +29,9 @@ Para empezar, debemos que definir una **estructura** para los bloques de informa
 * **Hash:** Código hash del bloque en cuestión.
 * **Hash del bloque anterior:** Con esto se garantiza que la cadena de bloques tiene consistencia y es segura. 
 
-
+<p align="center">
+  <img width="817" height="194" src="../Imagenes/Estructura de los bloques.png">
+</p>
 
 ## Como comprobar la integridad de los datos
 Si los hash coinciden...
