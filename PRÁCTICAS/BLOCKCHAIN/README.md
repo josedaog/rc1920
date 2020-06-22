@@ -21,10 +21,11 @@ Para llevar a cabo una implementación sencilla y aprender los fundamentos de es
 La idea y funcionamiento de una blockchain, como se ha explicado anteriormente, resulta fácil de entender. Es el algoritmo de encriptado de datos el que **dificulta** el proceso, ya que sólo se han encontrado implementaciones de claves públicas y privadas, encriptación simple de datos, etc. Este problema sin embargo, necesita crear un código hash único dependiendte de **bastantes otros campos**, para que así el bloque sea único, irrepetible y seguro. Con dicho algoritmo, la resolución resultaría bastante sencilla.
 
 ## ¡Manos a la obra!
+### Estructura de los bloques
 Para empezar, debemos que definir una **estructura** para los bloques de información. Aunque en la realidad se incluyen muchos campos, nos va a bastar con definir lo siguiente:
 
 * **Identificador:** Para saber qué posición ocupa el bloque en la blockchain.
-* **Fecha de edición del bloque*:** La fehca de edición de la información del bloque es importante ya que cada bloque podrá tener una fecha distinta (o no), lo que le añade seguridad a la cadena de bloques.
+* **Fecha de edición del bloque:** La fehca de edición de la información del bloque es importante ya que cada bloque podrá tener una fecha distinta (o no), lo que le añade seguridad a la cadena de bloques.
 * **Datos:** La información que queremos guardar a la blockchain. Puede ser por ejemplo, una contraseña que queremos guardar con seguridad, el pago de algún objeto o servicio, etc.
 * **Hash:** Código hash del bloque en cuestión.
 * **Hash del bloque anterior:** Con esto se garantiza que la cadena de bloques tiene consistencia y es segura. 
@@ -36,7 +37,7 @@ Para empezar, debemos que definir una **estructura** para los bloques de informa
 
 El primer paso que habría que dar sería preparar la información de los datos para incluir todos los campos antes mencionados, exceptuando los códigos hash que son propios de los bloques.
 
-## Generando un bloque
+### Generando un bloque
 Para la generación de un bloque a partir de los datos, 
 ## Como comprobar la integridad de los datos
 Si los hash coinciden...
