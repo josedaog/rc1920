@@ -35,9 +35,23 @@ Para empezar, debemos que definir una **estructura** para los bloques de informa
   <img width="900" height="160" src="../../Imagenes/Estructura de los bloques.png">
 </p>
 
-El primer paso que habría que dar sería preparar la información de los datos para incluir todos los campos antes mencionados, exceptuando los códigos hash que son propios de los bloques.
+En Prolog, se podría escribir de la siguiente forma:
+
+>block(Index, TimeStamp, Dato, Hash, PrevHash)
+
+El primer paso que habría que dar sería **preparar** la información de los datos para incluir todos los campos antes mencionados, exceptuando los códigos hash que son propios de los bloques.
 
 ### Generando un bloque
-Para la generación de un bloque a partir de los datos, 
-## Como comprobar la integridad de los datos
-Si los hash coinciden...
+Para la generación de un bloque a partir de los datos, entra en juego la **función de encriptación**. En [esta página](https://www.metalevel.at/prolog/cryptography)[1] se exponen varias **técnicas** de encriptación de datos. Sin embargo, habría que adaptar alguna para que el hash generado fuera apartir de los datos que tenemos (identificador, fecha, y datos).
+
+Si se le añade el **hash** del bloque **anterior**, ya tendríamos el bloque creado y preparado para **meterlo** en nuestra blockchain.
+
+### Almacenar un bloque en la blockchain
+Del mismo modo que se ha propuesto la utilización de listas para la almacenar la información de entrada, la cadena de bloques resultante podría tambien ser una **lista de bloques**, con la estructura antes mencionada. Por tanto a la vez que se crean los bloques, se podrían ir incluyendo en la lista final.
+
+## ¿Cómo comprobar la integridad de los datos en la blockchain?
+La seguridad y la integridad de los datos es fundamental en una blockchain. Pero, ¿qué habría que tener en cuenta para decidir si una blockchain **no tiene ningún fallo de seguridad**?
+
+El proceso consiste en **recorrer la lista de bloques** generada anteriormente e ir verificando los códigos hash de cada par de bloques consecutivos: **el código hash de un bloque debe coincidir con el campo del "hash del bloque anterior" del siguiente bloque**. Si al explorar todos los pares de bloques se produce una discordancia, la blockchain no será íntegra y se habrá modificado algún bloque después de su incorporación a la blockchain.
+
+
