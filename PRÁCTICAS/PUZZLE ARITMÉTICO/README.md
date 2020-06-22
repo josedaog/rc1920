@@ -100,3 +100,12 @@ Para utilizar este programa, debemos hacer la llamada al predicado *do(+L).*
 Se le pasará la lista de números con los que se quiere formar las ecuaciones.
 
 #### do([1,2,3,4]).
+
+<p align="center">
+  <img width="675" height="364" src="../../Imagenes/predicado 1234.png">
+</p>
+
+#### do([7,10,2,5,4]).
+<p align="center">
+  <img width="675" height="364" src="../../Imagenes/predicado 7,10,2,5,4.png">
+</p>
