@@ -21,7 +21,7 @@ En el ejemplo 1 es lícito concluir que Sócrates es mortal **a partir** de las 
 
 **Conclusiones**
 
-La lógica aunque es muy potetente, tiende a ser difícil de trabajar debido a sus restricciones.
+La lógica aunque es muy potetente, tiende a ser difícil de trabajar debido a sus restricciones, pero es la base de todo lenguaje de programación por lo que está muy presente en la informática de una forma u otra.
 
 ## Redes Semánticas
 Una red semántica es una forma de representación del conocimiento en la que los conceptos y sus interrelaciones se representan mediante un grafo. En caso de que no existan ciclos, estas redes pueden ser visualizadas como árboles.
