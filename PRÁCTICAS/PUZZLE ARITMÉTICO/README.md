@@ -31,10 +31,7 @@ A continuación se describirá el código desde la llamada inicial, pasando por 
 *Es cierto cuando por pantalla se imprimen todas las posibles soluciones al problema planteado, dada una lista L de números.*
 
 >do(L) :- 
-
 >   equation(L,LT,RT),
-
 >      writef('%w = %w\n',[LT,RT]),
-
 >   fail.
 >do(_).
