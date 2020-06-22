@@ -25,3 +25,16 @@ Para la lista **[5,4,3,5]**, podemos formar tres ecuaciones:
 * Para cada combinación de términos de la parte izquierda y derecha, se evalúa si se cumple que son iguales.
 
 ## Descripción del código
+A continuación se describirá el código desde la llamada inicial, pasando por todos los predicados que se utilizan internamente.
+
+### do(+L)
+*Es cierto cuando por pantalla se imprimen todas las posibles soluciones al problema planteado, dada una lista L de números.*
+
+>do(L) :- 
+
+>   equation(L,LT,RT),
+
+>      writef('%w = %w\n',[LT,RT]),
+
+>   fail.
+>do(_).
